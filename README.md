@@ -42,7 +42,7 @@ pip install --no-deps \
 
 ## Build target
 
-The binaries contain code for several GPU architectures. `sm_80` (A100) and `sm_90` (H100) are the targets the wheels are meant for. This list comes from scanning the binaries, not from `cuobjdump`, so treat it as a hint and verify before relying on another architecture.
+The binaries contain code for several GPU architectures, including `sm_80` (A100) and `sm_90` (H100). This list comes from scanning the binaries for strings, not from `cuobjdump`, and some entries may be stray strings. Verify the architectures you need before relying on them.
 
 ## Licenses
 
