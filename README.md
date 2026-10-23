@@ -1,6 +1,6 @@
 # gpu-kernel-wheels
 
-Prebuilt CUDA kernel wheels for [granite.build](https://github.com/priyanshu891/granite.build)'s AutoTuneX image, so the image does not have to compile them from source.
+Prebuilt CUDA kernel wheels, so they do not have to be compiled from source at install time.
 
 Each **release** is one build combination. Wheels are attached as release assets, not committed to git.
 
